@@ -1,0 +1,93 @@
+.MuiTabs-scroller{
+    margin: 0 0 60px;
+    .MuiTabs-flexContainer{
+        display: block !important;       
+        text-transform: uppercase;
+        .MuiButtonBase-root{
+            font-size: 24px;
+            padding-bottom: 24px;
+            display: inline-block;
+            vertical-align: top;
+            width: 33.3333%;
+            font-weight: 540;
+            text-align: center;
+            padding: 0 5px 10px;
+            color: #17217b;
+        }
+    }
+}
+
+
+.tabs-content{
+    .tab-active{
+        display: flex;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+        top: 0;
+        position: relative;
+        .tab-title{
+            margin-bottom: 40px;
+            font-size: 32px;
+            width: 365px;
+            flex-shrink: 0;
+            line-height: 1.43;
+            margin-right: 68px;
+            letter-spacing: 0.34px;
+            color: #17217b;
+            font-weight: 550;
+            font-family: 'PlayfairDisplay-Italic', serif;
+        }
+        .tab-infor{
+            .services-info-list{
+                justify-content: flex-start;
+                margin-right: -30px;
+                min-height: 700px;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: left;
+                .item{
+                    width: 200px;
+                    margin: 0 32px 55px 0;
+                    font-size: 14px;
+                    color: rgba(0, 0, 0, 0.9);
+                    align-items: center;
+                    a{
+                        display: block;
+                        color: rgba(0, 0, 0, 0.9);
+                    }
+                    .icon-holder{
+                        background-color: #f7f9fb;
+                        padding: 35px 20px;
+                        height: 150px;
+                        margin-bottom: 20px;
+                        display: flex;
+                        img{
+                            max-width: 100%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                    .text-title{
+                        font-family: "Avenir", "Nunito", sans-serif;
+                        font-weight: 600;
+                        margin-bottom: 12px;
+                        font-size: 16px;
+                        color: #18227b;
+                        display: block;
+                    }
+                    .learn{
+                        
+                        color: #434eea;
+                        display: inline-block;
+                        vertical-align: top;
+                        position: relative;
+                        margin-top: 10px;
+                    }
+
+                }
+            }
+        }
+    }
+}

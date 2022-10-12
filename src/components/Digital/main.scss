@@ -1,0 +1,93 @@
+.digital-infor{
+    padding-top: 120px;
+    margin-bottom: 0;
+    padding-bottom: 38px;
+    padding: 70px 0 165px;
+    background-color: #434eea;
+    color: #fff;
+    .container{
+        min-height: 0;
+        h2{
+            font-size: 50px;
+            margin-bottom: 75px;
+            text-align: center;
+            color: #fff;
+            font-weight: 500;
+            font-family: 'Playfair Display', serif;
+        }
+        .digital-infor-list{
+            margin-bottom: 18px;
+            border: none;
+            margin: 0 0 30px;
+            padding-bottom: 25px;
+            text-align: center;
+            font-size: 16px;
+            li{
+                font-size: 17px;
+                line-height: 1.29;
+                display: inline-block;
+                vertical-align: top;
+                width: 31%;
+                margin-bottom: 35px;
+                color: rgba(255, 255, 255, 0.87);
+                strong{
+                    display: block;
+                    font-size: 55px;
+                    line-height: 0.91;
+                    margin-bottom: 0;
+                    color: #fff;
+                    font-weight: 600;
+                    font-family: "Avenir", "Nunito", sans-serif;
+                    .counter-value{
+                        display: inline-block;
+                        vertical-align: top;
+                        position: relative;
+                        margin-bottom: 10px;
+                        font-weight: 550;
+                        // font-weight: bold;
+                    }
+                }
+            }
+        }
+        .features-info-list{
+            margin-top: 10px;
+            padding-top: 75px;
+            font-size: 17px;
+            margin-bottom: 0;
+            text-align: center;
+            position: relative;
+            margin-bottom: 0;
+            text-align: center;
+            position: relative;
+            color: rgba(255, 255, 255, 0.87);
+            &:before{
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 0;
+                transform: translateX(-50%);
+                width: 300px;
+                height: 1px;
+                background: #fff;
+            }
+            .collapse-list{
+                display: flex;
+                flex-wrap: wrap;
+                padding-bottom: 0;
+                margin-bottom: 0;
+                .item{
+                    padding: 0 50px;
+                    width: 33.33%;
+                    margin-bottom: 53px;
+                    .icon{
+                        height: 80px;
+                        margin-bottom: 20px;
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

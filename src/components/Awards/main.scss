@@ -1,0 +1,195 @@
+.mention{
+    padding: 100px 0 90px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #212121;
+    .container{
+        min-height: 0;
+        .mentions-holder{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            .text{
+                text-align: left;
+                width: 290px;
+                flex-shrink: 0;
+                font-size: 20px;
+                margin-right: 40px;
+                h2{
+                    font-size: 40px;
+                    margin-bottom: 30px;
+                    letter-spacing: -.1px;
+                }
+                p{
+                    margin-bottom: 30px;
+                }
+        
+            }
+            .slick-slider{
+                width: 880px;
+                margin-right: -50px;
+                display: flex;
+                -webkit-box-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                align-items: center;
+                flex-wrap: wrap;
+                &:before{
+                    left: 27%;
+                    height: 120px;
+                    bottom: auto;
+                    top: 30px;
+                    content: '';
+                    position: absolute;
+                    background: #434eea;
+                    opacity: .2;
+                    width: 1px;
+                }
+                &:after{
+                    right: 39%;
+                    height: 120px;
+                    bottom: auto;
+                    top: 30px;
+                    content: '';
+                    position: absolute;
+                    background: #434eea;
+                    opacity: .2;
+                    width: 1px;
+                }
+                .slick-prev{
+                     display: none!important;
+                }
+                .slick-next{
+                    display: none!important;
+                }
+                .slick-list{
+                    width: 100% !important;
+                    padding: 10px 0;
+                    position: relative;
+                    overflow: hidden;
+                    display: block;
+                    margin: 0;
+                    .slick-track{
+                        opacity: 1;
+                        width: 5586px;
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        position: relative;
+                        left: 0;
+                        top: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                        // &:before{
+                        //     left: 33.33%;
+                        //     height: 120px;
+                        //     bottom: auto;
+                        //     top: 30px;
+                        //     content: '';
+                        //     position: absolute;
+                        //     top: 0;
+                        //     width: 1px;
+                            
+                        //     background: #434eea;
+                        //     opacity: .2;
+                        
+                        // }
+                        .slick-slide{
+                            width: 294px;
+                            display: block;
+                            float: left;
+                            height: 100%;
+                            min-height: 1px;
+                            .item{
+                                width: 100%;
+                                display: inline-block;
+                                a{
+                                    max-width: 180px;
+                                    max-height: 160px; 
+                                    display: block;
+                                    text-decoration: none;
+                                    color: #3b51f6;
+                                    img{
+                                        max-width: 180px;
+                                        max-height: 160px;
+                                        margin: 0 auto;
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+                .slick-dots{
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 0;
+                    padding-top: 20px;             
+                    li{
+                        display: inline-block;
+                        vertical-align: top;
+                        margin: 0 5px;
+                        button{
+                            width: 21px;
+                            height: 2px;
+                            border-radius: 0;
+                            background: #d7d7d7 !important;
+                            min-width: 1px;
+                            padding: 0;
+                            margin: 0;
+                            text-indent: -9999px;
+                            position: relative;
+                            display: inline-block;
+                            color: #fff;
+                            font-weight: 500;
+                            vertical-align: middle;
+                            text-decoration: none;
+                            white-space: nowrap;
+                            text-align: center;  
+                        }                           
+                    }
+                    .slick-active{
+                        button{
+                            background: #434eea;                           
+                        } 
+                    }  
+                }
+            }
+        }
+    }
+}
+
+.collaborate{
+    padding: 77px 20px 140px;
+    position: relative;
+    text-align: center;
+    color: #18227b;
+    font-size: 36px;
+    padding-top: 135px;
+    padding-bottom: 185px;
+    .h3{
+        font-size: 48px;
+        margin-bottom: 18px;
+        position: relative;
+        padding-top: 35px;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.25;
+        font-weight: normal;
+        color: #18227b;
+        display: block;
+        &:before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 78px;
+            height: 2px;
+            background-color: #8b91ed;
+        }
+    }
+    p{
+        font-weight: 400;
+    }
+}

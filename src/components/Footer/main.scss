@@ -1,0 +1,122 @@
+a{
+    color: #fff;
+}
+.footer{
+    padding: 62px 0 15px;
+    background-color: #3547f5;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 78px;
+}
+.container{
+    max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    .left{
+        width: 70%;
+    }
+}
+
+.footer-colums{
+    padding-right: 36px;
+    margin-right: -125px;
+    display: flex;
+    align-self: flex-start;
+    .colum:first-child{
+        width: 215px;
+    }
+    .colum{
+        text-align: left;
+        padding-right: 15px;
+        .colum-item{
+            color: #fff;
+            margin-bottom: 10px;
+            li{
+                margin-bottom: 10px;
+                ul li:before{
+                    content: '';
+                    position: absolute;
+                    width: 4px;
+                    height: 4px;
+                    left: 0;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    background: rgba(255, 255, 255, 0.5);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+.h4{
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.h5{
+    font-size: 16px;
+    font-family: "Avenir", "Nunito", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.sub-menu-item{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.right{
+    width: 30%;
+    padding-left: 20px;
+    text-align: right;
+    font: 18px/1.5 "Avenir", "Nunito", sans-serif;
+}
+address{
+    font-size: 18px;
+    margin: 0 0 37px;
+    letter-spacing: -0.09px;
+    font-style: normal;
+    p{
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+}
+.soc-contact{
+    margin-bottom: 37px;
+}
+
+.footer-bottom{
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+    .bottom-left{margin: 0;}
+    .bottom-right{
+        text-align: right;
+        // min-width: 768px;
+        p{
+            font-size: 14px;
+            margin: 0;
+            a{
+                cursor: pointer;
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
