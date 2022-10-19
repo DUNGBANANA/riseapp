@@ -18,16 +18,16 @@ export default function Footer (props: IFooterProps) {
                 <ul>
                   <div className="h5">COMPANY</div>
                   <li className="colum-item">
-                    <a href="">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li className="colum-item">
-                    <a href="">Cases</a>
+                    <a href="/">Cases</a>
                   </li>
                   <li className="colum-item">
-                    <a href="">About Us</a>
+                    <a href="/">About Us</a>
                   </li>
                   <li className="colum-item">
-                    <a href="">Blog</a>
+                    <a href="/">Blog</a>
                   </li>
 
                   <ul className="sub-menu">
@@ -38,7 +38,7 @@ export default function Footer (props: IFooterProps) {
                     <li className="sub-menu-item">How to Create a Social Media App</li>
                   </ul>
                   <li className="colum-item">
-                    <a href="">Sitemap</a>
+                    <a href="/">Sitemap</a>
                   </li>
                 </ul>
               </div>
@@ -48,7 +48,7 @@ export default function Footer (props: IFooterProps) {
                 <div className="h5">SERVICES</div>
                 <ul>
                   <li className="colum-item">
-                    <a href="">Mobile App Development</a>
+                    <a href="/">Mobile App Development</a>
                     <ul className="sub-menu">
                       <li className="sub-menu-item">iOS</li>
                       <li className="sub-menu-item">Android</li>
@@ -56,13 +56,13 @@ export default function Footer (props: IFooterProps) {
                     </ul>
                   </li>
                   <li className="colum-item">
-                    <a href="">Web Design and Development</a>
+                    <a href="/">Web Design and Development</a>
                   </li>
                   <li className="colum-item">
-                    <a href="">UX/UI Design</a>
+                    <a href="/">UX/UI Design</a>
                   </li>
                   <li className="colum-item">
-                    <a href="">Software Testing</a>
+                    <a href="/">Software Testing</a>
                   </li>
                 </ul>
               </div>
@@ -74,10 +74,10 @@ export default function Footer (props: IFooterProps) {
                     <div className="h5">TECHNOLOGIES</div>
                     <ul className="h4">
                       <li className='colum-item'>
-                        <a href="">React.js</a>
+                        <a href="/">React.js</a>
                       </li>
                       <li className='colum-item'>
-                        <a href="">React Native</a>
+                        <a href="/">React Native</a>
                       </li>
                     </ul>
                   </li>
@@ -94,7 +94,7 @@ export default function Footer (props: IFooterProps) {
                 <p>Kaupmehe tn 7-120, 10114, Kesklinna linnaosa, Harju maakond, Tallinn, Estonia</p>
             </address>
             <div className="mail-link">
-              <a href="" className="mail">biz@riseapps.biz</a>
+              <a href="/" className="mail">biz@riseapps.biz</a>
             </div>
             </div>
             
@@ -105,7 +105,7 @@ export default function Footer (props: IFooterProps) {
           <div className="bottom-right">
             <p className="copy">2022 © Riseapps.All rights reserved</p>
             <p>
-              <a href="">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </p>
           </div>
         </div>
