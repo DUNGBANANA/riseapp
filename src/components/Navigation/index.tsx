@@ -11,30 +11,30 @@ export default function Navigation (props: INavigationProps) {
         <div className="container">
           <strong className="logo">
             <Link to="/home">
-              <img src={logo}/>
+              <img src={logo} alt=''/>
             </Link>
           </strong>
           <ul className="add-menu">
             <li className='nav-item'>
-              <a href="">Cases</a>
+              <a href="/">Cases</a>
             </li>
             <li className='nav-item'>
-              <a href="">Services</a>
+              <a href="/">Services</a>
             </li>
             <li className='nav-item'>
               <Link to="/recruitment">Recruiment</Link>
             </li>
             <li className='nav-item'>
-              <a href="">Technologies</a>
+              <a href="/">Technologies</a>
             </li>
             <li className='nav-item'>
-              <a href="">Blog</a>
+              <a href="/" >Blog</a>
             </li>
             <li className='nav-item'>
               <Link to="/about">About Us</Link>
             </li>
           </ul>
-          <a href="" className="button-btn">Contact Us</a>
+          <a href="/" className="button-btn">Contact Us</a>
         </div>
     </header>
   );
